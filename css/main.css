@@ -1,8 +1,4 @@
 /*  
-Theme Name: MeatKing
-Version:    1.14.20
-Author:     ThemeWagon
-
 
 TABLE OF CONTENTS
     01 - General and Typography
@@ -182,6 +178,15 @@ section::before,section::after {
     padding-bottom:100px;
 }
 .section-title {
+    color:black;
+    font-size:36px;
+    line-height:40px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+    font-weight:600;
+}
+.section-title2 {
+    color:white;
     font-size:36px;
     line-height:40px;
     text-transform:uppercase;
@@ -203,7 +208,26 @@ section::before,section::after {
 .lead:after {
     position:absolute;
     content:' ';
-    background:#ed0121;
+    background:#9DD73D;
+    width:80px;
+    height:3px;
+    bottom:-22px;
+    left:50%;
+    margin-left:-40px;
+}
+.lead2 {
+    font-size:17px;
+    line-height:24px;
+    font-weight:normal;
+    text-transform:uppercase;
+    margin-bottom:15px;
+    color:white;
+    position:relative;
+}
+.lead2:after {
+    position:absolute;
+    content:' ';
+    background:#9DD73D;
     width:80px;
     height:3px;
     bottom:-22px;
@@ -242,24 +266,10 @@ section::before,section::after {
 .bm10 {
     margin-bottom:10px !important;
 }
-.facts h4 {
-    font-size:40px;
-    margin-bottom:20px;
-}
-.parallax h1,.parallax h2,.parallax h3,.parallax h4,.parallax h5,.parallax h6 {
-    color:#fff;
-}
-.facts p {
-    font-size:16px;
-    text-transform:uppercase;
-    margin:0;
-}
 .story .icon-wrapper i {
     font-size:70px;
 }
-.facts i {
-    font-size: 70px;
-}
+
 
 
 /* ==========================================================================
@@ -281,6 +291,13 @@ section::before,section::after {
 }
 
 
+/* ==========================================================================
+    07. Hours
+========================================================================== */
+#hours h3 h4 p i {
+    color: black;
+}
+
 
 
 /* ==========================================================================
@@ -289,6 +306,10 @@ section::before,section::after {
 .chefs img {
     border:5px solid #e7e7e7;
     width: 80%;
+    align-items: center;
+}
+.chefs {
+    align-items: center;
 }
 
 
@@ -302,7 +323,7 @@ section::before,section::after {
     font-weight:bold;
 }
 .dark-wrapper .ss-style-top::before {
-    background-image:linear-gradient(315deg,#042337 50%,transparent 50%),linear-gradient(45deg,#ed0121 50%,transparent 50%);
+    background-image:linear-gradient(315deg,#042337 50%,transparent 50%),linear-gradient(45deg,#9DD73D 50%,transparent 50%);
 }
 .social-bar {
     width:100%;
