@@ -1,4 +1,3 @@
-MeatKing
+East West Market and Grill
 ========
 
-Restaurant Theme based on Twitter Bootstrap 3

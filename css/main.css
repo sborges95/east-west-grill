@@ -76,10 +76,10 @@ section::before,section::after {
     02. Header 
 ========================================================================== */
 #header {
-    background-image:url(../img/night.jpg);
-    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    background-image:url(../img/chickenkebab.jpg);
+  
     -moz-background-size:cover;
-    -o-background-size:/*@@prefixmycss->No equivalent*/;
+ 
     background-size:cover;
     background-position:center center;
     background-attachment:fixed;
@@ -113,13 +113,13 @@ section::before,section::after {
     text-transform:uppercase;
     font-weight:bold;
     display:inline-block;
-    background:#ed0121;
+    background:#9DD73D;
     padding:0px 18px;
 }
 #header .subtitle h4 {
     display:inline-block;
     background:white;
-    color:#ed0121;
+    color:#9DD73D;
     font-size:38px;
     padding:0px 15px;
 }
@@ -144,7 +144,7 @@ section::before,section::after {
     03. Navigation 
 ========================================================================== */
 #menu {
-    background:rgba(33,45,57,0.8);
+    background:#042337;
     margin-bottom:0;
 }
 .navbar-brand h2 {
@@ -165,7 +165,7 @@ section::before,section::after {
     font-weight:bold;
 }
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>.active>a {
-    background:#ed0121;
+    background:#9DD73D;
     color:white;
     text-shadow:none;
 }
@@ -224,10 +224,10 @@ section::before,section::after {
     05. parallax 
 ========================================================================== */
 .parallax {
-    background:url(../img/parallax1.jpg) fixed no-repeat center center;
-    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    background:url(../img/grapes.jpg) fixed no-repeat center center;
+   
     -moz-background-size:cover;
-    -o-background-size:/*@@prefixmycss->No equivalent*/;
+  
     background-size:cover;
     position:relative;
     color:#FFF;
@@ -237,7 +237,7 @@ section::before,section::after {
     padding-bottom:130px;
 }
 .parallax.parallax2 {
-    background-image:url(../img/parallax2.jpg);
+    background-image:url(../img/lambplate.jpg);
 }
 .bm10 {
     margin-bottom:10px !important;
@@ -269,23 +269,11 @@ section::before,section::after {
     text-align:center;
     margin:0 auto;
 }
-.menu-titles h1 {
-    text-shadow:none;
-    color:#ed0121;
-    text-align:center;
-    margin:0 auto;
-    padding-top:30px;
-    padding-bottom:15px;
-}
-#food-menu ul {
-    margin:0;
-    padding:0;
-    list-style:none;
-}
+
 .menu-images img {
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
-    border-radius:10px;
+    border-radius:20px;
     border:5px solid #dadada;
     display:block;
     margin:auto;
@@ -293,114 +281,6 @@ section::before,section::after {
 }
 
 
-/* ==========================================================================
-    07. Special offers 
-========================================================================== */
-.hot-tag {
-    position:absolute;
-    bottom:0;
-    right:0;
-    z-index:15;
-    display:inline-block;
-    width:80px;
-    height:80px;
-    line-height:90px;
-    text-align:center;
-    font-weight:700;
-    color:#fff;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    border-radius:100px;
-}
-.br-red {
-    background-color:#ed0121 !important;
-}
-.br-lblue {
-    background-color:#32c8de !important;
-}
-.br-green {
-    background-color:#51d466 !important;
-}
-.pricing {
-    border-top:1px solid #f1f1f1;
-}
-.pricing .pricing-item {
-    position:relative;
-    margin-top:40px;
-    margin-bottom:10px;
-}
-.pricing .pricing-item img {
-    max-width:250px;
-    float:left;
-}
-.pricing-item-details a,.pricing-item-details p,.pricing .lead {
-    color:white;
-    font-weight:bold;
-}
-.pricing .pricing-item .pricing-item-details {
-    margin-left:265px;
-}
-.pricing .pricing-item .pricing-item-details h3 {
-    margin-top:0;
-    margin-bottom:8px;
-    font-size:22px;
-}
-.pricing .pricing-item .pricing-item-details p {
-}
-.pricing .pricing-item .pricing-item-details a.btn {
-    margin-top:10px;
-}
-.pricing .pricing-item .pricing-item-details a.view-link {
-    display:inline-block;
-    margin-top:7px;
-    font-size:12px;
-    border-bottom:1px dotted #aeaeae;
-}
-.pricing .pricing-item .hot-tag {
-    top:0;
-    left:0;
-    margin-top:-15px;
-    margin-left:-15px;
-    width:55px;
-    height:55px;
-    line-height:50px;
-    font-size:23px;
-    font-weight:700;
-    border: 4px solid white;
-}
-
-
-/* ==========================================================================
-    08. Reservation 
-========================================================================== */
-.form-group {
-    margin-bottom:24px;
-}
-.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control {
-    cursor:not-allowed;
-    background-color: transparent;
-}
-.form-control {
-    height:38px;
-    font-size:14px;
-    vertical-align:middle;
-    background-color:transparent;
-    -webkit-border-radius:2px;
-    -webkit-border-radius:2px;
-    -moz-border-radius:2px;
-    border-radius:2px;
-    -webkit-box-shadow:none !important;
-    -moz-box-shadow:none !important;
-    box-shadow:none !important;
-    -webkit-transition:none !important;
-    -moz-transition:none !important;
-    -o-transition:none !important;
-    transition:none !important;
-}
-
-.form p {
-    margin: 10px 0 30px 0;
-}
 
 
 /* ==========================================================================
@@ -416,13 +296,13 @@ section::before,section::after {
     10. Footer 
 ========================================================================== */
 .dark-wrapper {
-    background:#ed0121;
+    background:#042337;
     color:white;
     font-size:20px;
     font-weight:bold;
 }
 .dark-wrapper .ss-style-top::before {
-    background-image:linear-gradient(315deg,#ed0121 50%,transparent 50%),linear-gradient(45deg,#ed0121 50%,transparent 50%);
+    background-image:linear-gradient(315deg,#042337 50%,transparent 50%),linear-gradient(45deg,#ed0121 50%,transparent 50%);
 }
 .social-bar {
     width:100%;
@@ -446,10 +326,7 @@ section::before,section::after {
     filter: alpha(opacity=50);
 }
 
-.themeBy{
-    color: #ed0121;
-    background: white;
-}
+
 
 /* ==========================================================================
     11. Responsive styles 
@@ -470,7 +347,7 @@ section::before,section::after {
     .navbar-nav {
         float:none !important;
         width:100%;
-        text-align:center;
+        text-align:left;
         margin-left:9px;
     }
     .navbar-nav>li {
@@ -483,7 +360,7 @@ section::before,section::after {
         width:110px;
         left:50%;
         margin-left:-55px;
-        background:black;
+        background:white;
         -webkit-border-radius:0 0 100% 100%;
         -moz-border-radius:0 0 100% 100%;
         border-radius:0 0 100% 100%;
